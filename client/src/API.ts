@@ -30,7 +30,7 @@ export const addTodo = async (
         )
         return saveTodo
     } catch (error) {
-        throw new Error
+        throw new Error()
     }
 }
 
